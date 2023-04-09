@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    height: auto;
+}
+
+section.hero img{
+    align-content: center;
+    max-width: fit-content;
+    height: 412px;
+    width: 1116px;
+    border-radius: 10% ;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #FFCE85;
+}
+section.hero div{
+    display: grid;
+    padding-left: 50px;
+    text-align: center;
+}
+section.hero h1{
+    margin: 0;
+    padding: 0px 20px;
+    font-size: 40px;
+    text-align: center;
+}
+ header {
+    background-color: black;
+    color:white;
+   
+ }
+ header h1{
+    text-align: center;
+    font-size: 55px;
+ }
+main{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    
+    display: grid;
+    grid-template-columns: minmax(50px, 2fr);
+    gap: 20px;
+   
+ }
+main div.card img{
+    border-radius: 10px 10px 10px 10px;
+    height: 412px;
+    width: 548px;
+
+}
+ main div.card h2{
+    margin: auto;
+    padding: 20px 20px 4px 20px;
+    font-size: 18px;
+ }
+ main div.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    gap:20px;
+
+ }
+
+ 
+footer {
+    background-color: black;
+    color:white;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+footer h3 {
+    text-align: center
+    
+}
+footer p {
+    text-align: center
+}
